@@ -2,6 +2,13 @@ const core = require('@actions/core');
 const github = require('@actions/github');
 
 const mapping = new Map([
+    // BOI
+    ['LukeAbell', 'U0C7C8E3G'],
+    ['Aidancs', 'U0405KDV8BV'],
+    ['christophrumpel', 'U04ALUJS1KQ'],
+    ['jlambe', 'U0130EQ0S6P'],
+    
+    // Spatie
     ['rubenvanassche', 'UCK2H2Z6V'],
     ['brendt', 'U7B46B49W'],
     ['sebastiandedeyne', 'U04SG19KQ'],
@@ -11,7 +18,6 @@ const mapping = new Map([
     ['willemvb', 'U025151HP'],
     ['riasvdv', 'UJA4K0423'],
     ['Nielsvanpach', 'U01AEH489NX'],
-    ['LukeAbell', 'U0C7C8E3G'],
     ['Sam-Apostel', 'U03M8AUFG0K'],
     ['timvandijck', 'U04P44DCYPQ'],
 ])
